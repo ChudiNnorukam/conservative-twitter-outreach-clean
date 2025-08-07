@@ -1,0 +1,47 @@
+{
+  "name": "lead-generation-dm-system",
+  "version": "1.0.0",
+  "description": "LinkedIn and Twitter DM lead generation system for Chudi Nnorukam",
+  "main": "agents/dm-dispatcher-agent.js",
+  "scripts": {
+    "start": "node agents/dm-dispatcher-agent.js",
+    "test": "node agents/dm-dispatcher-agent.js --test",
+    "hunt": "node agents/lead-hunter-agent.js",
+    "hunt-test": "node agents/lead-hunter-agent.js --test",
+    "setup": "node setup.js",
+    "analytics": "node dashboard/analytics-dashboard.js",
+    "dev": "nodemon agents/dm-dispatcher-agent.js --test"
+  },
+  "keywords": [
+    "lead-generation",
+    "linkedin",
+    "twitter",
+    "dm",
+    "outreach",
+    "automation",
+    "sales",
+    "marketing"
+  ],
+  "author": "Chudi Nnorukam",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "twitter-api-v2": "^1.15.1",
+    "node-cron": "^3.0.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chudinnorukam/lead-generation-dm-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chudinnorukam/lead-generation-dm-system/issues"
+  },
+  "homepage": "https://github.com/chudinnorukam/lead-generation-dm-system#readme"
+} 

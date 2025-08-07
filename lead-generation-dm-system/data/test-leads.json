@@ -1,0 +1,83 @@
+[
+  {
+    "platform": "linkedin",
+    "id": "linkedin_1754529363653_1",
+    "name": "John Smith",
+    "title": "VP of Engineering",
+    "company": "TechCorp",
+    "industry": "Technology",
+    "location": "San Francisco, CA",
+    "profileUrl": "https://linkedin.com/in/johnsmith",
+    "keywords": [
+      "AI",
+      "automation",
+      "SaaS"
+    ],
+    "score": 80,
+    "source": "keyword_search",
+    "lastActivity": "2025-08-07T01:16:03.653Z",
+    "mutualConnections": 5,
+    "recentPosts": [
+      {
+        "content": "Interesting insights about AI...",
+        "date": "2025-08-07T01:16:03.653Z",
+        "engagement": {
+          "likes": 12,
+          "comments": 3
+        }
+      },
+      {
+        "content": "Interesting insights about automation...",
+        "date": "2025-08-07T01:16:03.653Z",
+        "engagement": {
+          "likes": 12,
+          "comments": 3
+        }
+      },
+      {
+        "content": "Interesting insights about SaaS...",
+        "date": "2025-08-07T01:16:03.653Z",
+        "engagement": {
+          "likes": 12,
+          "comments": 3
+        }
+      }
+    ]
+  },
+  {
+    "platform": "linkedin",
+    "id": "linkedin_industry_1754529363653",
+    "name": "Sarah Johnson",
+    "title": "Director of Marketing",
+    "company": "GrowthCo",
+    "industry": "Technology",
+    "location": "New York, NY",
+    "profileUrl": "https://linkedin.com/in/sarahjohnson",
+    "keywords": [
+      "technology",
+      "software"
+    ],
+    "score": 80,
+    "source": "industry_search",
+    "lastActivity": "2025-08-07T01:16:03.653Z",
+    "companySize": "100-500",
+    "recentPosts": [
+      {
+        "content": "Scaling Technology operations...",
+        "date": "2025-08-07T01:16:03.653Z",
+        "engagement": {
+          "likes": 8,
+          "comments": 2
+        }
+      },
+      {
+        "content": "Scaling Software operations...",
+        "date": "2025-08-07T01:16:03.653Z",
+        "engagement": {
+          "likes": 8,
+          "comments": 2
+        }
+      }
+    ]
+  }
+]

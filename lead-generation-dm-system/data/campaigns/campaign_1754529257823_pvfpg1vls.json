@@ -1,0 +1,269 @@
+{
+  "id": "campaign_1754529257823_pvfpg1vls",
+  "name": "First Lead Generation Campaign",
+  "leads": [
+    {
+      "platform": "linkedin",
+      "id": "linkedin_industry_1754529250183",
+      "name": "Sarah Johnson",
+      "title": "Director of Marketing",
+      "company": "GrowthCo",
+      "industry": "Freelance",
+      "location": "New York, NY",
+      "profileUrl": "https://linkedin.com/in/sarahjohnson",
+      "keywords": [
+        "freelance",
+        "consulting",
+        "agency",
+        "startup",
+        "small business",
+        "nonprofit",
+        "professional services",
+        "digital services",
+        "creative services",
+        "marketing services",
+        "web development",
+        "design",
+        "technology",
+        "business services",
+        "community development",
+        "social impact",
+        "education",
+        "healthcare",
+        "environmental",
+        "arts & culture",
+        "human services",
+        "youth development",
+        "animal welfare",
+        "disaster relief",
+        "international development"
+      ],
+      "score": 80,
+      "source": "industry_search",
+      "lastActivity": "2025-08-07T01:14:10.183Z",
+      "companySize": "100-500",
+      "recentPosts": [
+        {
+          "content": "Scaling Freelance operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Consulting operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Agency operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Startup operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Small Business operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Nonprofit operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Professional Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Digital Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Creative Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Marketing Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Web Development operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Design operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Technology operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Business Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Community Development operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Social Impact operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Education operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Healthcare operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Environmental operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Arts & Culture operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Human Services operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Youth Development operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Animal Welfare operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling Disaster Relief operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        },
+        {
+          "content": "Scaling International Development operations...",
+          "date": "2025-08-07T01:14:10.183Z",
+          "engagement": {
+            "likes": 8,
+            "comments": 2
+          }
+        }
+      ]
+    }
+  ],
+  "template": "cold-outreach",
+  "platforms": [
+    "linkedin",
+    "twitter"
+  ],
+  "settings": {
+    "delay": 300000,
+    "dailyLimit": 10,
+    "followUpDelay": 3,
+    "maxFollowUps": 2
+  },
+  "status": "completed",
+  "stats": {
+    "sent": 0,
+    "delivered": 0,
+    "responses": 0,
+    "connections": 0
+  },
+  "startedAt": "2025-08-07T01:14:17.823Z",
+  "completedAt": "2025-08-07T01:14:18.184Z"
+}

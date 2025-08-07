@@ -1,0 +1,15 @@
+{"timestamp":"2025-08-06T22:41:17.955Z","message":"Lead Hunter Agent initialized"}
+{"timestamp":"2025-08-06T22:41:17.965Z","message":"Found 2 qualified leads"}
+{"timestamp":"2025-08-06T22:41:17.967Z","message":"Saved 2 leads to /Users/chudinnorukam/Documents/n8n/lead-generation-dm-system/data/test-leads.json"}
+{"timestamp":"2025-08-07T01:09:15.547Z","message":"Lead Hunter Agent initialized"}
+{"timestamp":"2025-08-07T01:09:15.551Z","message":"Found 2 qualified leads"}
+{"timestamp":"2025-08-07T01:09:15.553Z","message":"Saved 2 leads to /Users/chudinnorukam/Documents/n8n/lead-generation-dm-system/data/test-leads.json"}
+{"timestamp":"2025-08-07T01:09:20.451Z","message":"Lead Hunter Agent initialized"}
+{"timestamp":"2025-08-07T01:09:20.455Z","message":"Found 2 qualified leads"}
+{"timestamp":"2025-08-07T01:09:20.456Z","message":"Saved 2 leads to /Users/chudinnorukam/Documents/n8n/lead-generation-dm-system/data/leads-2025-08-07.json"}
+{"timestamp":"2025-08-07T01:14:10.177Z","message":"Lead Hunter Agent initialized"}
+{"timestamp":"2025-08-07T01:14:10.184Z","message":"Found 1 qualified leads"}
+{"timestamp":"2025-08-07T01:14:10.186Z","message":"Saved 1 leads to /Users/chudinnorukam/Documents/n8n/lead-generation-dm-system/data/leads-2025-08-07.json"}
+{"timestamp":"2025-08-07T01:16:03.651Z","message":"Lead Hunter Agent initialized"}
+{"timestamp":"2025-08-07T01:16:03.654Z","message":"Found 2 qualified leads"}
+{"timestamp":"2025-08-07T01:16:03.655Z","message":"Saved 2 leads to /Users/chudinnorukam/Documents/n8n/lead-generation-dm-system/data/test-leads.json"}

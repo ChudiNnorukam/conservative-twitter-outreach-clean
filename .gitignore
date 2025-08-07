@@ -1,0 +1,52 @@
+# Sensitive files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials/
+*.log
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Only include lead generation DM system
+!lead-generation-dm-system/
+!lead-generation-dm-system/**
+
+# Exclude everything else
+*
+!lead-generation-dm-system/
+!lead-generation-dm-system/**
+!README.md
+!.gitignore

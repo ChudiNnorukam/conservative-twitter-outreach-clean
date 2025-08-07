@@ -1,0 +1,64 @@
+{
+  "name": "cold-outreach",
+  "description": "Cold outreach templates for LinkedIn and Twitter DM campaigns",
+  "version": "1.0",
+  "templates": {
+    "linkedin": {
+      "connectionRequest": "Hi {{firstName}},\n\nI noticed your work as a {{title}} and thought we might have some synergies. I help {{targetAudience}} with {{service}} and would love to connect to see if there's an opportunity to collaborate on projects or share resources.\n\nBest regards,\nChudi",
+      "directMessage": "Hi {{firstName}},\n\nThanks for connecting! I saw your work at {{company}} and was impressed by your approach to {{industry}}.\n\nI specialize in helping {{targetAudience}} with {{service}} and would love to share some insights that might be relevant to your current projects or upcoming needs.\n\nWould you be interested in a quick 15-minute call to discuss how we might collaborate?\n\nBest,\nChudi",
+      "followUp": "Hi {{firstName}},\n\nI wanted to follow up on my previous message about {{service}}. I know you're busy, but I thought you might be interested in {{specificBenefit}} that could help with {{specificChallenge}} in your {{industry}} work.\n\nWould you be open to a brief conversation?\n\nLooking forward to hearing from you,\nChudi"
+    },
+    "twitter": {
+      "directMessage": "Hi {{username}},\n\nLoved your content about {{threadTopic}}! Your perspective on {{specificInsight}} really resonates with my work helping {{targetAudience}}.\n\nI'm building {{solution}} and think you might find {{value}} interesting for your {{industry}} projects. Would you be open to a quick chat?\n\nCheers,\nChudi",
+      "followUp": "Hey {{username}},\n\nFollowing up on my previous message about {{solution}}. I noticed you've been posting about {{threadTopic}} - this is exactly the space where our services make the biggest impact for {{targetAudience}}.\n\nWould love to show you what we're building. Quick 10-min call?\n\nBest,\nChudi",
+      "engagement": "Great insight about {{topic}}! This aligns perfectly with what we're seeing in the {{industry}} space, especially for {{targetAudience}}. Thanks for sharing! 👍"
+    }
+  },
+  "variables": {
+    "required": [
+      "firstName",
+      "company",
+      "title",
+      "industry",
+      "targetAudience",
+      "service"
+    ],
+    "optional": [
+      "recentTopic",
+      "specificInsight",
+      "threadTopic",
+      "solution",
+      "value",
+      "field",
+      "username",
+      "specificBenefit",
+      "specificChallenge"
+    ]
+  },
+  "personalization": {
+    "linkedin": {
+      "profileFields": ["firstName", "lastName", "headline", "industry", "company"],
+      "contentFields": ["recentPosts", "skills", "experience"],
+      "connectionFields": ["mutualConnections", "commonInterests"]
+    },
+    "twitter": {
+      "profileFields": ["username", "name", "bio", "location"],
+      "contentFields": ["recentTweets", "topics", "hashtags"],
+      "engagementFields": ["followerCount", "verified", "tweetMetrics"]
+    }
+  },
+  "compliance": {
+    "maxMessageLength": {
+      "linkedin": 300,
+      "twitter": 10000
+    },
+    "cooldownPeriod": {
+      "linkedin": "24h",
+      "twitter": "24h"
+    },
+    "maxMessagesPerConversation": {
+      "linkedin": 3,
+      "twitter": 5
+    }
+  }
+} 

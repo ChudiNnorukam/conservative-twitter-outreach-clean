@@ -1,0 +1,23 @@
+{
+  "id": "campaign_1754529084593_l3gt5166d",
+  "leads": [],
+  "platforms": [
+    "linkedin",
+    "twitter"
+  ],
+  "settings": {
+    "delay": 300000,
+    "dailyLimit": 50,
+    "followUpDelay": 3,
+    "maxFollowUps": 2
+  },
+  "status": "completed",
+  "stats": {
+    "sent": 0,
+    "delivered": 0,
+    "responses": 0,
+    "connections": 0
+  },
+  "startedAt": "2025-08-07T01:11:24.593Z",
+  "completedAt": "2025-08-07T01:11:24.593Z"
+}
