@@ -30,14 +30,13 @@ on:
 
 env:
   NODE_VERSION: '18'
-  TEST_MODE: ${{ github.event.inputs.test_mode || 'all' }}
 
 jobs:
   # Test rate limiting and API quotas
   test-rate-limits:
     name: Test Rate Limits & API Quotas
     runs-on: ubuntu-latest
-    if: env.TEST_MODE == 'all' || env.TEST_MODE == 'rate_limits'
+    if: github.event.inputs.test_mode == 'all' || github.event.inputs.test_mode == 'rate_limits' || github.event.inputs.test_mode == null
     
     steps:
       - name: Checkout code
@@ -135,7 +134,7 @@ jobs:
   test-lead-qualification:
     name: Test Lead Qualification Logic
     runs-on: ubuntu-latest
-    if: env.TEST_MODE == 'all' || env.TEST_MODE == 'lead_qualification'
+    if: github.event.inputs.test_mode == 'all' || github.event.inputs.test_mode == 'lead_qualification' || github.event.inputs.test_mode == null
     
     steps:
       - name: Checkout code
@@ -227,7 +226,7 @@ jobs:
   test-outreach-sequences:
     name: Test Outreach Sequence Generation
     runs-on: ubuntu-latest
-    if: env.TEST_MODE == 'all' || env.TEST_MODE == 'outreach_sequences'
+    if: github.event.inputs.test_mode == 'all' || github.event.inputs.test_mode == 'outreach_sequences' || github.event.inputs.test_mode == null
     
     steps:
       - name: Checkout code
@@ -301,7 +300,7 @@ jobs:
   test-api-validation:
     name: Test API Validation & Error Handling
     runs-on: ubuntu-latest
-    if: env.TEST_MODE == 'all' || env.TEST_MODE == 'api_validation'
+    if: github.event.inputs.test_mode == 'all' || github.event.inputs.test_mode == 'api_validation' || github.event.inputs.test_mode == null
     
     steps:
       - name: Checkout code

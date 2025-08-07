@@ -1,0 +1,236 @@
+{
+  "defaultCriteria": {
+    "platforms": ["linkedin", "twitter"],
+    "keywords": [
+      "freelance",
+      "contract work",
+      "project-based",
+      "consulting",
+      "agency",
+      "startup",
+      "small business",
+      "nonprofit",
+      "volunteer",
+      "remote work",
+      "contractor",
+      "independent consultant",
+      "freelancer",
+      "agency owner",
+      "startup founder",
+      "small business owner",
+      "nonprofit director",
+      "volunteer coordinator",
+      "project manager",
+      "business development",
+      "client acquisition",
+      "service provider",
+      "digital services",
+      "web development",
+      "marketing services",
+      "design services",
+      "consulting services",
+      "business services",
+      "professional services"
+    ],
+    "titles": [
+      "Freelancer",
+      "Independent Consultant",
+      "Contractor",
+      "Agency Owner",
+      "Agency Director",
+      "Startup Founder",
+      "Co-founder",
+      "CEO",
+      "Director",
+      "Manager",
+      "Owner",
+      "Principal",
+      "Partner",
+      "Consultant",
+      "Project Manager",
+      "Business Development",
+      "Client Relations",
+      "Service Provider",
+      "Creative Director",
+      "Marketing Director",
+      "Operations Manager",
+      "Executive Director",
+      "Program Manager",
+      "Volunteer Coordinator",
+      "Development Director",
+      "Community Manager"
+    ],
+    "industries": [
+      "Freelance",
+      "Consulting",
+      "Agency",
+      "Startup",
+      "Small Business",
+      "Nonprofit",
+      "Professional Services",
+      "Digital Services",
+      "Creative Services",
+      "Marketing Services",
+      "Web Development",
+      "Design",
+      "Technology",
+      "Business Services",
+      "Community Development",
+      "Social Impact",
+      "Education",
+      "Healthcare",
+      "Environmental",
+      "Arts & Culture",
+      "Human Services",
+      "Youth Development",
+      "Animal Welfare",
+      "Disaster Relief",
+      "International Development"
+    ],
+    "locations": [
+      "Remote",
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Australia",
+      "New Zealand",
+      "Europe",
+      "Global",
+      "San Francisco",
+      "New York",
+      "Los Angeles",
+      "Seattle",
+      "Austin",
+      "Boston",
+      "Chicago",
+      "Denver",
+      "Portland",
+      "Nashville",
+      "Atlanta",
+      "Miami",
+      "Toronto",
+      "Vancouver",
+      "London",
+      "Berlin",
+      "Amsterdam"
+    ],
+    "companySize": [
+      "1-10",
+      "10-50",
+      "50-200",
+      "200-1000"
+    ],
+    "targetAudience": [
+      "freelancers",
+      "small_businesses",
+      "startups",
+      "agencies",
+      "nonprofits",
+      "contractors",
+      "consultants",
+      "service_providers"
+    ],
+    "exclusionCriteria": {
+      "titles": [
+        "Student",
+        "Intern",
+        "Trainee",
+        "Junior",
+        "Entry Level",
+        "Assistant",
+        "Coordinator",
+        "Receptionist",
+        "Cashier",
+        "Sales Associate"
+      ],
+      "industries": [
+        "Retail",
+        "Hospitality",
+        "Food Service",
+        "Manufacturing",
+        "Construction",
+        "Transportation",
+        "Utilities"
+      ],
+      "companyTypes": [
+        "Fortune 500",
+        "Enterprise",
+        "Large Corporation",
+        "Government",
+        "Military"
+      ]
+    },
+    "competitorAccounts": [
+      "upwork",
+      "fiverr",
+      "freelancer",
+      "guru",
+      "toptal",
+      "99designs",
+      "behance",
+      "dribbble"
+    ]
+  },
+  "targetProfiles": {
+    "freelancers": {
+      "titles": ["Freelancer", "Independent Consultant", "Contractor", "Service Provider"],
+      "keywords": ["freelance", "contract work", "project-based", "independent", "consulting"],
+      "industries": ["Freelance", "Consulting", "Professional Services", "Digital Services"],
+      "companySize": ["1-10"]
+    },
+    "agencyOwners": {
+      "titles": ["Agency Owner", "Agency Director", "Creative Director", "Principal"],
+      "keywords": ["agency", "creative services", "marketing services", "design services"],
+      "industries": ["Agency", "Creative Services", "Marketing Services", "Design"],
+      "companySize": ["1-10", "10-50", "50-200"]
+    },
+    "startupFounders": {
+      "titles": ["Startup Founder", "Co-founder", "CEO", "Founder"],
+      "keywords": ["startup", "entrepreneur", "innovation", "scaling", "growth"],
+      "industries": ["Startup", "Technology", "SaaS", "Fintech"],
+      "companySize": ["1-10", "10-50", "50-200"]
+    },
+    "smallBusinessOwners": {
+      "titles": ["Owner", "CEO", "Director", "Manager"],
+      "keywords": ["small business", "owner", "entrepreneur", "local business"],
+      "industries": ["Small Business", "Professional Services", "Business Services"],
+      "companySize": ["1-10", "10-50", "50-200"]
+    },
+    "nonprofitLeaders": {
+      "titles": ["Executive Director", "Program Manager", "Development Director", "Volunteer Coordinator"],
+      "keywords": ["nonprofit", "volunteer", "social impact", "community", "development"],
+      "industries": ["Nonprofit", "Community Development", "Social Impact", "Human Services"],
+      "companySize": ["1-10", "10-50", "50-200"]
+    },
+    "serviceProviders": {
+      "titles": ["Consultant", "Project Manager", "Business Development", "Client Relations"],
+      "keywords": ["consulting", "service provider", "business services", "professional services"],
+      "industries": ["Consulting", "Professional Services", "Business Services"],
+      "companySize": ["1-10", "10-50", "50-200"]
+    }
+  },
+  "searchLimits": {
+    "dailySearches": 300,
+    "leadsPerSearch": 25,
+    "maxLeadsPerDay": 200,
+    "qualityScoreThreshold": 60
+  },
+  "excludeCriteria": {
+    "blacklistedCompanies": [
+      "Meta",
+      "Google",
+      "Apple",
+      "Microsoft",
+      "Amazon",
+      "Netflix"
+    ],
+    "blacklistedTitles": [
+      "Student",
+      "Intern",
+      "Entry Level",
+      "Junior"
+    ],
+    "minFollowerCount": 100,
+    "maxFollowerCount": 100000
+  }
+} 
